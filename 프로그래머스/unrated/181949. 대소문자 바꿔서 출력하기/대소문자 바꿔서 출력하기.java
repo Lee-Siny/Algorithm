@@ -8,9 +8,9 @@ public class Solution {
         String answer = "";
         for (char c : a.toCharArray()) {
             if (c == Character.toLowerCase(c)) {
-                answer = answer + Character.toUpperCase(c); 
+                answer += Character.toUpperCase(c); 
             }else {
-                answer = answer + Character.toLowerCase(c);
+                answer += Character.toLowerCase(c);
             } // if-else
         } // for
 
