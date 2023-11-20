@@ -18,3 +18,31 @@ class Solution {
         return answer;
     } //main
 } //class
+
+
+// class Solution {
+//     public int solution(int a, int b, int c) {
+//         int answer = 1;
+
+//         int count = 1;
+//         if(a == b || a == c || b == c) {
+//             count++;
+//         } // if
+
+//         if(a == b && b == c) {
+//             count++;
+//         } // if
+
+//         for(int i = 1; i <= count; i++) {
+//             answer *= (pow(a,i)+pow(b,i)+pow(c,i));
+//         } // for
+
+//         return answer;
+//     } // main
+
+//     private int pow(int a, int b) {
+//         if(b == 0) return 1;
+//         return a * pow(a, b-1);
+//     } pow
+
+// } // class
