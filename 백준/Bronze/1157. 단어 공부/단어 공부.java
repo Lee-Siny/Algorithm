@@ -20,7 +20,8 @@ public class Main {
         for(int j = 0; j < alphabetArr.length; j++){
             if(max < alphabetArr[j]){
                 max = alphabetArr[j];
-                ch = (char) (j + 65);
+//                ch = (char) (j + 65);
+                ch = (char) (j + 'A');
             } else if(max == alphabetArr[j]){
                 ch = '?';
             } //else-if
@@ -31,3 +32,5 @@ public class Main {
         br.close();
     } //main
 } //class
+
+
