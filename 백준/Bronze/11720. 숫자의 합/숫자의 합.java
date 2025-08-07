@@ -8,7 +8,8 @@ public class Main {
 
         int length = Integer.parseInt(br.readLine());
         String[] sNumArr = br.readLine().split("");
-
+        br.close();
+        
         int sum = 0;
         for (int i = 0; i < length; i++) {
             sum += Integer.parseInt(sNumArr[i]);
